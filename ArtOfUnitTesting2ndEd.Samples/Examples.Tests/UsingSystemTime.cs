@@ -13,7 +13,9 @@ namespace Examples.Tests.Listing72
         [Test]
         public void SettingSystemTime_Always_ChangesTime()
         {
-            SystemTime.Set(new DateTime(2000,1,1));
+            var dt = new DateTime(2000, 1, 1);
+            var dt2=DateTime.Now;
+            SystemTime.Set(dt2);
 
             string output = TimeLogger.CreateMessage("a");
 
