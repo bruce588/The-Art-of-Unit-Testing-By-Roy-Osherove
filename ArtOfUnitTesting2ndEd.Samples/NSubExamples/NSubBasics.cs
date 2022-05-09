@@ -13,6 +13,7 @@ namespace NSubExamples
         {
             IFileNameRules fakeRules = Substitute.For<IFileNameRules>();
 
+            //沒有設定回傳 false
             Assert.IsFalse(fakeRules.IsValidLogFileName("something.bla"));
         }
         [Test]
@@ -20,6 +21,7 @@ namespace NSubExamples
         {
             IFileNameRules fakeRules = Substitute.For<IFileNameRules>();
 
+            //設定回傳true
             fakeRules.IsValidLogFileName(Arg.Any<string>()).Returns(true);
               
             Assert.IsTrue(fakeRules.IsValidLogFileName("anything, really"));
@@ -29,7 +31,7 @@ namespace NSubExamples
         public void Returns_ArgAny_Throws()
         {
             IFileNameRules fakeRules = Substitute.For<IFileNameRules>();
-
+            //設定當被呼叫的時候要做什麼事
             fakeRules.When(x => x.IsValidLogFileName(Arg.Any<string>()))
                      .Do(x => { throw new Exception("fake exception"); });
 

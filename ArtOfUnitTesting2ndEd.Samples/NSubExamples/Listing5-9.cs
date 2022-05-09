@@ -45,8 +45,9 @@ namespace NSubExamples
         {
             var mockView = Substitute.For<IView>();
 
-            Presenter p = new Presenter(mockView, Substitute.For<ILogger>());
-            mockView.Loaded += Raise.Event<Action>();
+            var stubLogger = Substitute.For<ILogger>();
+            Presenter p = new Presenter(mockView, stubLogger);
+            mockView.Loaded += Raise.Event<Action>();//引發某個事件時(不帶參數)
 
             mockView.Received().Render(Arg.Is<string>(s => s.Contains("Hello World")));
         }
@@ -58,8 +59,9 @@ namespace NSubExamples
             var mockLogger = Substitute.For<ILogger>();
 
             Presenter p = new Presenter(stubView, mockLogger);
+            //引發某個事件帶參數
             stubView.ErrorOccured += Raise.Event<Action<string>>("fake error");
-
+        
             mockLogger.Received().LogError(Arg.Is<string>(s => s.Contains("fake error")));
         }
  
