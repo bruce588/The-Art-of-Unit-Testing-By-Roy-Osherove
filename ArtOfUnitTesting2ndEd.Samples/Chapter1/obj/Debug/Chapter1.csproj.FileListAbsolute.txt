@@ -23,3 +23,9 @@ C:\Users\rabbi\RiderProjects\aout2\ArtOfUnitTesting2ndEd.Samples\Chapter1\bin\De
 C:\Users\rabbi\RiderProjects\aout2\ArtOfUnitTesting2ndEd.Samples\Chapter1\bin\Debug\Chapter1.pdb
 C:\Users\rabbi\RiderProjects\aout2\ArtOfUnitTesting2ndEd.Samples\Chapter1\obj\Debug\Chapter1.csproj.AssemblyReference.cache
 C:\Users\rabbi\RiderProjects\aout2\ArtOfUnitTesting2ndEd.Samples\Chapter1\obj\Debug\Chapter1.csproj.CoreCompileInputs.cache
+D:\Bruce\Code\The-Art-of-Unit-Testing-By-Roy-Osherove\ArtOfUnitTesting2ndEd.Samples\Chapter1\bin\Debug\Chapter1.dll
+D:\Bruce\Code\The-Art-of-Unit-Testing-By-Roy-Osherove\ArtOfUnitTesting2ndEd.Samples\Chapter1\bin\Debug\Chapter1.pdb
+D:\Bruce\Code\The-Art-of-Unit-Testing-By-Roy-Osherove\ArtOfUnitTesting2ndEd.Samples\Chapter1\obj\Debug\Chapter1.csproj.AssemblyReference.cache
+D:\Bruce\Code\The-Art-of-Unit-Testing-By-Roy-Osherove\ArtOfUnitTesting2ndEd.Samples\Chapter1\obj\Debug\Chapter1.csproj.CoreCompileInputs.cache
+D:\Bruce\Code\The-Art-of-Unit-Testing-By-Roy-Osherove\ArtOfUnitTesting2ndEd.Samples\Chapter1\obj\Debug\Chapter1.dll
+D:\Bruce\Code\The-Art-of-Unit-Testing-By-Roy-Osherove\ArtOfUnitTesting2ndEd.Samples\Chapter1\obj\Debug\Chapter1.pdb
